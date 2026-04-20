@@ -8,7 +8,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: sky blue;
   min-height: 100vh;
 `;
 
@@ -27,7 +27,7 @@ const Form = styled.div`
 
 const Input = styled.input`
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 5px;
   font-size: 1rem;
 `;
@@ -41,7 +41,7 @@ const CheckboxContainer = styled.div`
 const CheckboxLabel = styled.label`
     margin-left: 5px;
   font-size: 1rem;
-    color: #333;
+    color: green;
 `;
 
 const Button = styled.button`
