@@ -8,13 +8,13 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: sky blue;
+  background-color: orange;
   min-height: 100vh;
 `;
 
 const Title = styled.h1`
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: #333;
 `;
 
@@ -41,7 +41,7 @@ const CheckboxContainer = styled.div`
 const CheckboxLabel = styled.label`
     margin-left: 5px;
   font-size: 1rem;
-    color: green;
+    color: sky blue;
 `;
 
 const Button = styled.button`
