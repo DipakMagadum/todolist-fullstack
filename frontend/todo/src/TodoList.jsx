@@ -67,9 +67,9 @@ const List = styled.ul`
 const ListItem = styled(motion.li)`
   background-color: #fff;
   color: #333;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 6px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,7 +156,7 @@ function TodoList() {
               exit={{ opacity: 0, y: -20 }}
             >
               {todo.title} —{" "}
-              {todo.completed ? "Completed" : "Not Completed"}
+              {todo.completed ? "Completed" : "Not Completed!"}
               <DeleteButton onClick={() => deleteTodo(todo.id)}>
                 Delete
               </DeleteButton>
